@@ -1,5 +1,5 @@
 {
-	"name": "kukuru",
+	"name": "fumika",
 	"type": "module",
 	"version": "0.0.1",
 	"scripts": {
@@ -18,7 +18,7 @@
 		"test-coverage": "vitest run --coverage",
 		"preinstall": "npx only-allow pnpm",
 		"prepare": "pnpm playwright install",
-		"local-prepare": "husky && pnpm playwright install"
+		"local-prepare": "husky"
 	},
 	"dependencies": {
 		"@astrojs/markdown-remark": "^7.3.0",

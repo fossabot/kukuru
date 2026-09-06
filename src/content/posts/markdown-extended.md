@@ -2,9 +2,9 @@
 title: Markdown Extended Features
 published: 2024-05-01
 updated: 2024-11-29
-description: 'Read more about Markdown features in Kukuru'
+description: 'Read more about Markdown features in Fumika'
 image: ''
-tags: [Demo, Example, Markdown, Kukuru]
+tags: [Demo, Example, Markdown, Fumika]
 category: 'Examples'
 draft: false 
 ---
@@ -17,7 +17,7 @@ You can add dynamic cards that link to GitHub repositories, on page load, the re
 Create a GitHub repository card with the code `::github{repo="<owner>/<repo>"}`.
 
 ```markdown
-::github{repo="iyanarmanda/kukuru"}
+::github{repo="iyanarmanda/fumika"}
 ```
 
 ## Admonitions
@@ -83,6 +83,19 @@ This is a note with a custom title.
 > The GitHub syntax is also supported.
 ```
 
+### Spoiler
+
+You can add spoilers to your text. The text also supports **Markdown** syntax.
+
+The content :spoiler[is hidden **ayyy**]!
+
+```markdown
+The content :spoiler[is hidden **ayyy**]!
+
+```
+
+## Other Features
+
 ### Ruby Text
 
 Add small characters above the text. For example:
@@ -100,16 +113,6 @@ He is a {rookie}^(beginner) in this baseball team.
 ```
 
 :::warning
-Ruby Text not supported on **post title** and **TOC**
+Ruby Text not supported on **Frontmatter Post** and **TOC**
 :::
 
-### Spoiler
-
-You can add spoilers to your text. The text also supports **Markdown** syntax.
-
-The content :spoiler[is hidden **ayyy**]!
-
-```markdown
-The content :spoiler[is hidden **ayyy**]!
-
-```
